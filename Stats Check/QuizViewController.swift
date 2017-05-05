@@ -29,7 +29,8 @@ class QuizViewController: UIViewController, UITableViewDelegate, UITableViewData
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
-    
+
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         if tableView == questionTableVIew {
@@ -74,7 +75,10 @@ class QuizViewController: UIViewController, UITableViewDelegate, UITableViewData
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableViewAutomaticDimension
     }
-    
+    @IBAction func nextBtnAction(_ sender: UIButton) {
+        let mapViewControllerObj = self.storyboard?.instantiateViewController(withIdentifier: "resultViewController") as? ResultViewController
+        self.navigationController?.pushViewController(mapViewControllerObj!, animated: true)
+    }
 }
 
 class QueCell: UITableViewCell {

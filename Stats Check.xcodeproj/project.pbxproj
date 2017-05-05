@@ -10,6 +10,7 @@
 		1F15B5B51EB62A8800316182 /* CategoryScreenVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15B5B41EB62A8800316182 /* CategoryScreenVCViewController.swift */; };
 		1F15B5B71EB62AB700316182 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15B5B61EB62AB700316182 /* QuizViewController.swift */; };
 		1F15B5B91EB62B0800316182 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15B5B81EB62B0800316182 /* AnswerViewController.swift */; };
+		1F47AFF21EBBADDF00BEA242 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47AFF11EBBADDF00BEA242 /* ResultViewController.swift */; };
 		1FE5F1D81EB629B900FA86D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE5F1D71EB629B900FA86D2 /* AppDelegate.swift */; };
 		1FE5F1DA1EB629B900FA86D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE5F1D91EB629B900FA86D2 /* ViewController.swift */; };
 		1FE5F1DD1EB629B900FA86D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE5F1DB1EB629B900FA86D2 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		1F15B5B41EB62A8800316182 /* CategoryScreenVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryScreenVCViewController.swift; path = ../CategoryScreenVCViewController.swift; sourceTree = "<group>"; };
 		1F15B5B61EB62AB700316182 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		1F15B5B81EB62B0800316182 /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnswerViewController.swift; path = ../AnswerViewController.swift; sourceTree = "<group>"; };
+		1F47AFF11EBBADDF00BEA242 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		1FE5F1D41EB629B900FA86D2 /* Stats Check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stats Check.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE5F1D71EB629B900FA86D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FE5F1D91EB629B900FA86D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,12 +111,13 @@
 				1FE5F1D91EB629B900FA86D2 /* ViewController.swift */,
 				1F15B5B41EB62A8800316182 /* CategoryScreenVCViewController.swift */,
 				1F15B5B81EB62B0800316182 /* AnswerViewController.swift */,
+				1F15B5B61EB62AB700316182 /* QuizViewController.swift */,
 				1FE5F1DB1EB629B900FA86D2 /* Main.storyboard */,
 				1FE5F1E11EB629B900FA86D2 /* Assets.xcassets */,
 				1FE5F1E31EB629B900FA86D2 /* LaunchScreen.storyboard */,
 				1FE5F1E61EB629B900FA86D2 /* Info.plist */,
 				1FE5F1DE1EB629B900FA86D2 /* Stats_Check.xcdatamodeld */,
-				1F15B5B61EB62AB700316182 /* QuizViewController.swift */,
+				1F47AFF11EBBADDF00BEA242 /* ResultViewController.swift */,
 			);
 			path = "Stats Check";
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			files = (
 				1F15B5B91EB62B0800316182 /* AnswerViewController.swift in Sources */,
 				1FE5F1E01EB629B900FA86D2 /* Stats_Check.xcdatamodeld in Sources */,
+				1F47AFF21EBBADDF00BEA242 /* ResultViewController.swift in Sources */,
 				1F15B5B71EB62AB700316182 /* QuizViewController.swift in Sources */,
 				1F15B5B51EB62A8800316182 /* CategoryScreenVCViewController.swift in Sources */,
 				1FE5F1DA1EB629B900FA86D2 /* ViewController.swift in Sources */,
