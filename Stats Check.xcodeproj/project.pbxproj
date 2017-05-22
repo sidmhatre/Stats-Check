@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		1F15B5B51EB62A8800316182 /* CategoryScreenVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15B5B41EB62A8800316182 /* CategoryScreenVCViewController.swift */; };
 		1F15B5B71EB62AB700316182 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15B5B61EB62AB700316182 /* QuizViewController.swift */; };
-		1F15B5B91EB62B0800316182 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15B5B81EB62B0800316182 /* AnswerViewController.swift */; };
 		1F47AFF21EBBADDF00BEA242 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47AFF11EBBADDF00BEA242 /* ResultViewController.swift */; };
 		1FE5F1D81EB629B900FA86D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE5F1D71EB629B900FA86D2 /* AppDelegate.swift */; };
 		1FE5F1DA1EB629B900FA86D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE5F1D91EB629B900FA86D2 /* ViewController.swift */; };
 		1FE5F1DD1EB629B900FA86D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE5F1DB1EB629B900FA86D2 /* Main.storyboard */; };
 		1FE5F1E01EB629B900FA86D2 /* Stats_Check.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FE5F1DE1EB629B900FA86D2 /* Stats_Check.xcdatamodeld */; };
-		1FE5F1E21EB629B900FA86D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE5F1E11EB629B900FA86D2 /* Assets.xcassets */; };
 		1FE5F1E51EB629B900FA86D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE5F1E31EB629B900FA86D2 /* LaunchScreen.storyboard */; };
 		1FE5F1F01EB629B900FA86D2 /* Stats_CheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE5F1EF1EB629B900FA86D2 /* Stats_CheckTests.swift */; };
 		1FE5F1FB1EB629B900FA86D2 /* Stats_CheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE5F1FA1EB629B900FA86D2 /* Stats_CheckUITests.swift */; };
+		1FF47AEB1EBDD87A0012BA55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF47AEA1EBDD87A0012BA55 /* Assets.xcassets */; };
+		1FF47AED1EBDE9970012BA55 /* AnsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF47AEC1EBDE9970012BA55 /* AnsDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,14 +41,13 @@
 /* Begin PBXFileReference section */
 		1F15B5B41EB62A8800316182 /* CategoryScreenVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryScreenVCViewController.swift; path = ../CategoryScreenVCViewController.swift; sourceTree = "<group>"; };
 		1F15B5B61EB62AB700316182 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
-		1F15B5B81EB62B0800316182 /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnswerViewController.swift; path = ../AnswerViewController.swift; sourceTree = "<group>"; };
 		1F47AFF11EBBADDF00BEA242 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		1F47AFF41EBCFD0300BEA242 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		1FE5F1D41EB629B900FA86D2 /* Stats Check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stats Check.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE5F1D71EB629B900FA86D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FE5F1D91EB629B900FA86D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1FE5F1DC1EB629B900FA86D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FE5F1DF1EB629B900FA86D2 /* Stats_Check.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stats_Check.xcdatamodel; sourceTree = "<group>"; };
-		1FE5F1E11EB629B900FA86D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FE5F1E41EB629B900FA86D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FE5F1E61EB629B900FA86D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FE5F1EB1EB629B900FA86D2 /* Stats CheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stats CheckTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +56,8 @@
 		1FE5F1F61EB629B900FA86D2 /* Stats CheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stats CheckUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE5F1FA1EB629B900FA86D2 /* Stats_CheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats_CheckUITests.swift; sourceTree = "<group>"; };
 		1FE5F1FC1EB629B900FA86D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF47AEA1EBDD87A0012BA55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FF47AEC1EBDE9970012BA55 /* AnsDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnsDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F47AFF31EBCFD0300BEA242 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F47AFF41EBCFD0300BEA242 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1FE5F1CB1EB629B800FA86D2 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +100,7 @@
 				1FE5F1EE1EB629B900FA86D2 /* Stats CheckTests */,
 				1FE5F1F91EB629B900FA86D2 /* Stats CheckUITests */,
 				1FE5F1D51EB629B900FA86D2 /* Products */,
+				1F47AFF31EBCFD0300BEA242 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,17 +117,17 @@
 		1FE5F1D61EB629B900FA86D2 /* Stats Check */ = {
 			isa = PBXGroup;
 			children = (
+				1FF47AEA1EBDD87A0012BA55 /* Assets.xcassets */,
 				1FE5F1D71EB629B900FA86D2 /* AppDelegate.swift */,
 				1FE5F1D91EB629B900FA86D2 /* ViewController.swift */,
 				1F15B5B41EB62A8800316182 /* CategoryScreenVCViewController.swift */,
-				1F15B5B81EB62B0800316182 /* AnswerViewController.swift */,
 				1F15B5B61EB62AB700316182 /* QuizViewController.swift */,
 				1FE5F1DB1EB629B900FA86D2 /* Main.storyboard */,
-				1FE5F1E11EB629B900FA86D2 /* Assets.xcassets */,
 				1FE5F1E31EB629B900FA86D2 /* LaunchScreen.storyboard */,
 				1FE5F1E61EB629B900FA86D2 /* Info.plist */,
 				1FE5F1DE1EB629B900FA86D2 /* Stats_Check.xcdatamodeld */,
 				1F47AFF11EBBADDF00BEA242 /* ResultViewController.swift */,
+				1FF47AEC1EBDE9970012BA55 /* AnsDetailsVC.swift */,
 			);
 			path = "Stats Check";
 			sourceTree = "<group>";
@@ -208,6 +218,7 @@
 				TargetAttributes = {
 					1FE5F1D31EB629B800FA86D2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F2654AH3GM;
 						ProvisioningStyle = Automatic;
 					};
 					1FE5F1EA1EB629B900FA86D2 = {
@@ -248,7 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FE5F1E51EB629B900FA86D2 /* LaunchScreen.storyboard in Resources */,
-				1FE5F1E21EB629B900FA86D2 /* Assets.xcassets in Resources */,
+				1FF47AEB1EBDD87A0012BA55 /* Assets.xcassets in Resources */,
 				1FE5F1DD1EB629B900FA86D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,13 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F15B5B91EB62B0800316182 /* AnswerViewController.swift in Sources */,
 				1FE5F1E01EB629B900FA86D2 /* Stats_Check.xcdatamodeld in Sources */,
 				1F47AFF21EBBADDF00BEA242 /* ResultViewController.swift in Sources */,
 				1F15B5B71EB62AB700316182 /* QuizViewController.swift in Sources */,
 				1F15B5B51EB62A8800316182 /* CategoryScreenVCViewController.swift in Sources */,
 				1FE5F1DA1EB629B900FA86D2 /* ViewController.swift in Sources */,
 				1FE5F1D81EB629B900FA86D2 /* AppDelegate.swift in Sources */,
+				1FF47AED1EBDE9970012BA55 /* AnsDetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F2654AH3GM;
 				INFOPLIST_FILE = "Stats Check/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sid.Stats-Check";
@@ -444,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F2654AH3GM;
 				INFOPLIST_FILE = "Stats Check/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sid.Stats-Check";

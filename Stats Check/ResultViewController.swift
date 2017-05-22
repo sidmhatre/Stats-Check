@@ -20,16 +20,36 @@ class ResultViewController: UIViewController, UICollectionViewDelegate, UICollec
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    var curretAns = [Int]()
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 14
+        return curretAns.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for:indexPath as IndexPath)
-        cell.backgroundColor = UIColor.orange
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for:indexPath as IndexPath) as! StarCollectionCell
+        
+        if curretAns[indexPath.row] >= 0 {
+            cell.setStarButton.setImage(UIImage(named: "Star-1"), for: .normal)
+        }
+        else{
+            cell.setStarButton.setImage(UIImage(named: "Star-2"), for: .normal)
+
+        }
         return cell
     }
 
-    
+    @IBAction func goToHomeClick(_ sender: UIButton) {
+        
+        let categoryScreenVCObj = self.storyboard?.instantiateViewController(withIdentifier: "categoryScreenVC") as? CategoryScreenVC
+        self.navigationController?.pushViewController(categoryScreenVCObj!, animated: true)
+    }
 
+
+}
+
+class StarCollectionCell: UICollectionViewCell {
+    
+    @IBOutlet weak var setStarButton: UIButton!
 }
